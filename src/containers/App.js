@@ -23,7 +23,7 @@ class App extends Component {
     );
 
     return (
-      <Router basename='/'>
+      <Router basename='/lp/ac'>
         <div className="App">
           <div className="Site">
             <Header />
