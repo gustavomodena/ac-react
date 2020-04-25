@@ -1,3 +1,11 @@
+.nav {
+	display: none;
+	
+	@media #{$large-up} {
+		display: block;
+	}
+}
+
 .nav-list {
 	display: flex;
 	align-items: center;
@@ -6,11 +14,11 @@
 
 .nav-item {
 	& + & {
-		margin-left: rem-calc(40);
+		margin-left: rem-calc(35);
 	}
 }
 
 .nav-link {
-	font-size: rem-calc(18);
+	font-size: rem-calc(16);
 	text-transform: uppercase;
 }

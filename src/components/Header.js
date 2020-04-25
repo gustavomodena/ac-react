@@ -7,6 +7,13 @@ function Header() {
     <header className="header">
       <div className="header-row row">
         <Logo />
+        
+        <div className="hamburger">
+					<span className="hamburger-line"></span>
+					<span className="hamburger-line"></span>
+					<span className="hamburger-line"></span>
+        </div>
+
         <Nav />
       </div>
     </header>

@@ -58,7 +58,10 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 
+ul,
 li {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 

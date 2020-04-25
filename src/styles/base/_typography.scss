@@ -9,7 +9,7 @@ h6 {
   line-height: 1.1;
   color: $black;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: rem-calc(30);
 
   @media #{$medium-up} {
     span {
@@ -26,10 +26,10 @@ h5 { font-size: $font-size-h5; }
 h6 { font-size: $font-size-h6; }
 
 p {
-  line-height: 1.618;
+  line-height: 1.5;
   text-rendering: optimizeLegibility;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: rem-calc(20);
 
   @media #{$medium-up} {
     span {

@@ -1,7 +1,10 @@
 .row {
   max-width: 100%;
   width: 1140px;
+
   margin: 0 auto;
+	padding-right: rem-calc(30);
+	padding-left: rem-calc(30);
 }
 
 .columns {
