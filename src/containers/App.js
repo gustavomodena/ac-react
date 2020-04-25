@@ -26,13 +26,13 @@ class App extends Component {
       <Router basename='/'>
         <div className="App">
           <div className="Site">
-            <Header></Header>
+            <Header />
 
             <main className="main">
               {routes}
             </main>
 
-            <Footer></Footer>
+            <Footer />
           </div>
         </div>
       </Router>
