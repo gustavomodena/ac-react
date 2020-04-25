@@ -1,0 +1,16 @@
+.nav-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav-item {
+	& + & {
+		margin-left: rem-calc(20);
+	}
+}
+
+.nav-link {
+	font-size: rem-calc(18);
+	text-transform: uppercase;
+}
