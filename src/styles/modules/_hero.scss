@@ -14,12 +14,16 @@
 	background-size: cover;
 	background-position: 50%;
 
-	@media #{$small-up} {
-		padding: rem-calc(60 0);
-	}
-
 	@media #{$large-up} {
 		min-height: calc(100vh - 74px);
+	}
+
+	@media (min-width: 768px) and (max-height: 680px) {
+		min-height: rem-calc(620);
+	}
+
+	@media (min-height: 980px) {
+		min-height: rem-calc(980);
 	}
 
 	&:before {
@@ -41,6 +45,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-bottom: rem-calc(150);
 }
 
 .hero-title,

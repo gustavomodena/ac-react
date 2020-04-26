@@ -1,3 +1,10 @@
+$font-size-h1: 2rem;
+$font-size-h2: 1.75rem;
+$font-size-h3: 1.5rem;
+$font-size-h4: 1.25rem;
+$font-size-h5: 1.1rem;
+$font-size-h6: 1rem;
+
 h1,
 h2,
 h3,
@@ -18,16 +25,47 @@ h6 {
   }
 }
 
-h1 { font-size: $font-size-h1; }
-h2 { font-size: $font-size-h2; }
-h3 { font-size: $font-size-h3; }
-h4 { font-size: $font-size-h4; }
-h5 { font-size: $font-size-h5; }
-h6 { font-size: $font-size-h6; }
+h1 {
+  font-size: $font-size-h1;
+
+  @media #{$small-up} {
+    font-size: 2.5rem;
+  }
+}
+
+h2 {
+  font-size: $font-size-h2;
+
+  @media #{$small-up} {
+    font-size: 2rem;
+  }
+}
+
+h3 {
+  font-size: $font-size-h3;
+
+  @media #{$small-up} {
+    font-size: 1.75rem;
+  }
+}
+
+h4 {
+  font-size: $font-size-h4;
+
+  @media #{$small-up} {
+    font-size: 1.5rem;
+  }
+}
+
+h5 {font-size: $font-size-h5;}
+h6 {font-size: $font-size-h6;}
+
 
 p {
+  font-size: rem-calc(16);
   line-height: 1.5;
   text-rendering: optimizeLegibility;
+
   margin-top: 0;
   margin-bottom: rem-calc(20);
 
